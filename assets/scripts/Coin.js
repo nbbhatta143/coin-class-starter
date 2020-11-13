@@ -1,5 +1,4 @@
 class Coin {
-  state = 0;
   constructor(state) {
     this.state = state;
   }

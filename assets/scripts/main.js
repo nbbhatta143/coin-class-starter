@@ -33,10 +33,9 @@ console.group("coinWithoutClass");
 console.log(coinWithoutClass);
 console.groupEnd();
 
-debugger;
-
 const coin1 = new Coin(coinWithoutClass.flip());
 const coin2 = new Coin(coinWithoutClass.flip());
 const coin3 = new Coin(coinWithoutClass.flip());
 const coin4 = new Coin(coinWithoutClass.flip());
 console.log(coin1.state, coin2.state, coin3.state, coin4.state);
+console.log(coin1.flip());
